@@ -48,6 +48,22 @@ body {
     word-spacing: 9999rem;
 }
 
+/* Uppgift css */
+
+.container-uppgift {
+    width:80%;
+    height: 80vh;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.lista-uppgift {
+    background: #C1A1A1;
+    border-radius: 15px;
+}
 
 
 @media only screen and (min-width: 768px) {
