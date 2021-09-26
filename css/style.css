@@ -113,8 +113,12 @@ body {
     }
     .container-fluid {
         padding-top: 2rem;
+        
     }
     .container h1 {
         word-spacing: normal;
     }
+}
+.md-form {
+    margin-bottom: 25px;
 }
