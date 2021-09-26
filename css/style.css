@@ -85,7 +85,15 @@ body {
     padding: 1%;
     margin: auto;
     width: 60%;
-    height: 60%;
+}
+
+.content-om {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+
 }
 
 
