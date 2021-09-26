@@ -69,17 +69,20 @@ body {
 
 
 @media only screen and (min-width: 768px) {
-    #landing {
-        padding-top: 4%;
+    .container-fluid {
+        padding-top: 1rem;
     }
 }
 @media only screen and (min-width: 1024px) {
     #landing {
-        padding-top: calc(4vw*2.5 - 30px);
+        padding-top: calc(4vw*2.5 - 35px);
     }
     #landing .container {
         flex-direction: row;
         
+    }
+    .container-fluid {
+        padding-top: 2rem;
     }
     .container h1 {
         word-spacing: normal;
